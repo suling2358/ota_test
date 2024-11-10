@@ -64,7 +64,7 @@ BtnLedOff()
 nn = 0
 while True:
     nn = (nn + 1) % 2
-    BtnArr[1].value(nn)
+    BtnArr[3].value(nn)
     utime.sleep_ms(500)
 
   
